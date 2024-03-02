@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { BusinessProps } from "./types";
-import { useEffect, useState } from "react";
 import { useWindowDimensions } from "./hook/useWindowDimensions";
 
 const Wrapper = styled.div`
