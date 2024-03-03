@@ -32,5 +32,5 @@ export const businesses: BusinessProps[] = [
 
 export const paths = {
   home: "/",
-  links: "/links",
+  links: "links",
 };

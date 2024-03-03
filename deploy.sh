@@ -1,26 +1,7 @@
-#!/usr/bin/env sh
+rm -r  ./build
+npm run build;
 
-# abort on errors
-set -e
+mv dist build;
 
-# build
-npm run build
-
-# navigate into the build output directory
-cd dist
-
-# if you are deploying to a custom domain
-echo 'www.example.com'
-
-git init
-git checkout -b main
-git add -A
-git commit -m 'deploy'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:jol1992/QR_project.git main:gh-pages
-
-cd -
+npm run deploy;
+rm -r dist;
