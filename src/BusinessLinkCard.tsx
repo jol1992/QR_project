@@ -73,7 +73,12 @@ export const BusinessLinkCard: React.FC<BusinessProps> = ({
           </TopRow>
           <div>{address}</div>
           <div>
-            <a href={website} target="_blank" rel="noopener noreferrer">
+            <a
+              style={{ wordWrap: "break-word" }}
+              href={website}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {website}
             </a>
           </div>
