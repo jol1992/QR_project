@@ -53,7 +53,7 @@ export const BusinessLinkCard: React.FC<BusinessProps> = ({
           </TopRow>
           <div>
             <a href={website} target="_blank" rel="noopener noreferrer">
-              {website}
+              Website
             </a>
           </div>
         </div>
@@ -79,7 +79,7 @@ export const BusinessLinkCard: React.FC<BusinessProps> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {website}
+              Website
             </a>
           </div>
         </div>
